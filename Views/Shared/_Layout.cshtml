@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - EPIC STORE</title>
+    <link rel="shortcut icon" href="https://e7.pngegg.com/pngimages/699/999/png-clipart-brand-logo-steam-gump-s.png" type="image/x-icon">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">EPIC STORE</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="First" asp-action="Index">Store</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Games" asp-action="Index">Create</a>
+                        </li>
+                       <!--
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Contact</a>
+                        </li> 
+                           -->
+                    </ul>
+                </div>
+
+              
+            
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <div class="content">
+        <div class="item">
+            <a href="#"><img src="https://sneakerdaily.vn/wp-content/uploads/2022/05/giay-nike-air-jordan-1-mid-se-gs-zen-master-dm6216-001-7.png" /></a>
+             <a href="#"><p class="name">Giày Nike Air Jordan 1 Mid SE GS ‘Zen Master’</p></a>
+            <p class="name">Giá: 5.090.000₫</p>
+        </div>
+        <div class="item">
+            <a href="#"><img src="https://sneakerdaily.vn/wp-content/uploads/2022/05/giay-nike-air-jordan-1-mid-washed-teal-dv2229-300-11.png" /></a>
+             <a href="#"><p class="name">Giày Nike Air Jordan 1 Mid ‘Washed Teal’</p></a>
+            <p class="name">Giá: 5.290.000₫</p>
+        </div>
+        <div class="item">
+            <a href="#"><img src="https://sneakerdaily.vn/wp-content/uploads/2020/11/httpsthesolesupplier.co_.ukrelease-datesnikeair-jordan-1jordan-1-mid-se-oakland-7.png.webp" /></a>
+             <a href="#"><p class="name">Giày Air Jordan 1 Mid SE ‘Oakland’</p></a>
+            <p class="name">Giá: 6.290.000₫</p>
+        </div>
+        <div class="item">
+            <a href="#"><img src="https://sneakerdaily.vn/wp-content/uploads/2022/05/giay-nike-air-jordan-1-low-gs-washed-denim-dm8947-100-10.png.webp" /></a>
+             <a href="#"><p class="name">Giày Nike Air Jordan 1 Low GS ‘Washed Denim’</p></a>
+            <p class="name">Giá: 4.290.000₫</p>
+        </div>
+        <div class="item">
+            <a href="#"><img src="https://sneakerdaily.vn/wp-content/uploads/2022/01/httpswww.nicekicks.comair-jordan-1-mid-gs-diy-dc4099-100-release-date__cf_chl_jschl_tk__2gg.n357W.iStB_.1SLOQI..drFxNgYoBhgzbqS2wDBM-1642683676-0-gaNycGzNCuU-8.png.webp" /></a>
+             <a href="#"><p class="name">Giày Air Jordan 1 Mid SE GS ‘DIY’</p></a>
+            <p class="name">Giá: 4.390.000₫</p>
+        </div>
+        <div class="item">
+            <a href="#"><img src="https://sneakerdaily.vn/wp-content/uploads/2022/01/shopfoster.comair-jordan-1-mid-se-dc7248-600.htmlid72363535-9.png.webp" /></a>
+            <a href="#"><p class="name">Giày Air Jordan 1 Mid SE GS ‘Barcelona Sweater’</p></a>
+            <p class="name">Giá: 4.290.000₫</p>
+        </div>
+        <div class="item">
+            <a href="#"><img src="https://sneakerdaily.vn/wp-content/uploads/2022/04/giay-nike-air-jordan-1-retro-high-og-heritage-575441-161-10.png.webp" /></a>
+            <a href="#"><p class="name">Giày Nike Air Jordan 1 Retro High OG GS ‘Heritage’</p></a>
+            <p class="name">Giá: 5.290.000₫</p>
+        </div>
+        <div class="item">
+            <a href="#"><img src="https://sneakerdaily.vn/wp-content/uploads/2022/02/1-2.png.webp" /></a>
+            <a href="#"><p class="name">Giày Air Jordan 1 High Zoom CMFT ‘Celestine Blue’ </p></a>
+            <p class="name">Giá: 6.490.000₫</p>
+        </div>
+        <div class="item">
+            <a href="#"><img src="https://sneakerdaily.vn/wp-content/uploads/2022/02/httpswww.nicekicks.comair-jordan-1-mid-diamond-shorts-dh6933-100-release-date-900-%C3%97-900-px-9.png.webp" /></a>
+            <a href="#"><p class="name">Giày Air Jordan 1 Mid SE ‘Diamond’</p></a>
+            <p class="name">Giá: 6.390.000₫</p>
+        </div>
+        <div class="item">
+            <a href="#"><img src="https://sneakerdaily.vn/wp-content/uploads/2022/02/httpswww.nicekicks.comair-jordan-1-mid-gs-554725-604-release-date-7.png.webp" /></a>
+            <a href="#"><p class="name">Giày Air Jordan 1 Mid GS ‘Black Pink Crimson’</p></a>
+            <p class="name">Giá: 5.290.000₫</p>
+        </div>
+        <div class="item">
+            <a href="#"><img src="https://sneakerdaily.vn/wp-content/uploads/2022/03/1-1.png.webp" /></a>
+            <a href="#"><p class="name">Giày Air Jordan 1 High Zoom CMFT ‘Pumpkin Spice’</p></a>
+            <p class="name">Giá: 6.190.000₫</p>
+        </div>
+        <div class="item">
+            <a href="#"><img src="https://sneakerdaily.vn/wp-content/uploads/2022/03/1-4.png.webp" /></a>
+            <a href="#"><p class="name">Giày Air Jordan 1 High Zoom CMFT ‘Purple Patent’ </p></a>
+            <p class="name">Giá: 6.890.000₫</p>
+        </div>
+        <div class="item">
+            <a href="#"><img src="https://sneakerdaily.vn/wp-content/uploads/2022/03/httpswww.nicekicks.comair-jordan-1-brotherhood-555088-706-6.png.webp" /></a>
+            <a href="#"><p class="name">Giày Air Jordan 1 Retro High OG ‘Brotherhood’ </p></a>
+            <p class="name">Giá: 5.590.000₫</p>
+        </div>
+        <div class="item">
+            <a href="#"><img src="https://sneakerdaily.vn/wp-content/uploads/2022/03/httpswww.nicekicks.comair-jordan-1-mid-bq6472-308-7.png.webp" /></a>
+            <a href="#"><p class="name">Giày Air Jordan 1 Mid ‘Dark Teal Green’</p></a>
+            <p class="name">Giá: 5.290.000₫</p>
+        </div>
+        <div class="item">
+            <a href="#"><img src="https://sneakerdaily.vn/wp-content/uploads/2022/03/httpsmoresneakers.comreleasesair-jordan-1-retro-low-hemp-white-dn6999-100-12.png.webp" /></a>
+            <a href="#"><p class="name">Giày Nike Air Jordan 1 Low ‘Hemp White’ </p></a>
+            <p class="name">Giá: 8.190.000₫</p>
+        </div>
+        <div class="item">
+            <a href="#"><img src="https://sneakerdaily.vn/wp-content/uploads/2022/03/httpswww.nicekicks.comair-jordan-1-mid-554724-096-7.png.webp" /></a>
+            <a href="#"><p class="name">Giày Air Jordan 1 Mid ‘Shadow’ </p></a>
+            <p class="name">Giá: 5.890.000₫</p>
+        </div>
+        <div class="item">
+            <a href="#"><img src="https://sneakerdaily.vn/wp-content/uploads/2022/03/httpswww.nicekicks.comair-jordan-1-retro-high-og-bred-patent-555088-063-11.png.webp" /></a>
+            <a href="#"><p class="name">Giày Air Jordan 1 Retro High OG ‘Patent Bred’ </p></a>
+            <p class="name">Giá: 11.090.000₫</p>
+        </div>
+        <div class="item">
+            <a href="#"><img src="https://sneakerdaily.vn/wp-content/uploads/2022/03/httpsmoresneakers.comreleasesair-jordan-1-mid-zig-zag-team-orange-dn4929-100-8.png.webp" /></a>
+            <a href="#"><p class="name">Giày Nike Air Jordan 1 Mid ‘Zig Zag Swoosh’ </p></a>
+            <p class="name">Giá: 6.290.000₫</p>
+        </div>
+        <div class="item">
+            <a href="#"><img src="https://sneakerdaily.vn/wp-content/uploads/2022/03/air-jordan-1-high-chinh-hang-tai-sneaker-daily-10.png.webp" /></a>
+            <a href="#"><p class="name">Giày Nike Air Jordan 1 Retro High OG ‘Atmosphere’ </p></a>
+            <p class="name">Giá: 9.890.000₫</p>
+        </div>
+        <div class="item">
+            <a href="#"><img src="https://sneakerdaily.vn/wp-content/uploads/2022/01/httpswww.nicekicks.comair-jordan-1-mid-se-gs-holiday__cf_chl_jschl_tk__EDuvJgET.ioppiayIYNvLNP0v7bFma54JtJlBIF32t0-1642937424-0-gaNycGzNDX0-7.png.webp" /></a>
+            <a href="#"><p class="name">Giày Air Jordan 1 Mid ‘Christmas Sweater’ </p></a>
+            <p class="name">Giá: 3.590.000₫</p>
+        </div>
+        <div class="item">
+            <a href="#"><img src="https://sneakerdaily.vn/wp-content/uploads/2022/04/giay-nike-air-jordan-1-mid-coconut-milk-bq6472-121-11.png.webp" /></a>
+            <a href="#"><p class="name">Giày Nike Air Jordan 1 Mid ‘Coconut Milk’ </p></a>
+            <p class="name">Giá: 6.290.000₫</p>
+        </div>
+        <div class="item">
+            <a href="#"><img src="https://sneakerdaily.vn/wp-content/uploads/2022/04/giay-nike-air-jordan-1-mid-university-blue-bq6472-141-13.png.webp" /></a>
+            <a href="#"><p class="name">Giày Nike Air Jordan 1 Mid ‘University Blue’ </p></a>
+            <p class="name">Giá: 5.890.000₫</p>
+        </div>
+        <div class="item">
+            <a href="#"><img src="https://sneakerdaily.vn/wp-content/uploads/2022/04/giay-nike-air-jordan-1-high-og-rebellionaire-555088-036-11.png.webp" /></a>
+            <a href="#"><p class="name">Giày Nike Air Jordan 1 High OG ‘Rebellionaire’ </p></a>
+            <p class="name">Giá: 6.790.000₫</p>
+        </div>
+        <div class="item">
+            <a href="#"><img src="https://sneakerdaily.vn/wp-content/uploads/2022/04/giay-nike-air-jordan-1-mid-w-pollen-bq6472-117-15.png.webp" /></a>
+            <a href="#"><p class="name">Giày Nike Air Jordan 1 Mid W ‘Pollen’ </p></a>
+            <p class="name">Giá: 5.190.000₫</p>
+        </div>
+
+    </div>
+
+
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+           
+                Copyright &copy; 2022 - EPIC STORE - Nguyễn Minh Quân
+
+                <a href="https://www.facebook.com/Quenly0103" class="text-white hover:text-gray-400 text-sm font-semibold block py-1 px-3 btn">
+                    About Us
+                </a>
+
+                <a href="https://www.google.com/" class="text-white hover:text-gray-400 text-sm font-semibold block py-1 px-3 btn">
+                    Support
+                </a>
+
+                <a href="https://www.youtube.com/channel/UCvsepV147Mt5o5UqAL80Ckw" class="text-white hover:text-gray-400 text-sm font-semibold block py-1 px-3 btn">
+                    Youtube
+                </a>
+
+            </div>
+       
+       
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+
+
+
