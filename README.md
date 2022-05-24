@@ -1,5 +1,5 @@
 1. Thêm sản phẩm vào giỏ hàng và thanh toán
-![image](https://user-images.githubusercontent.com/72543241/169777098-8aa0862d-2021-4730-85d2-303b8d9fad12.png)
+![image](https://user-images.githubusercontent.com/72533416/169969005-bcbacb77-e44c-41ad-a678-c92feb57f884.png)
 2. Hiển thị danh mục theo giống loài
 3. Tìm kiếm sản phẩm
 4. Phân trang
