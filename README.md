@@ -13,4 +13,5 @@
 3. Tìm kiếm theo giá tiền
 4. Tìm kiếm theo ngày tạo
 5. Lọc theo danh mục
-![image](https://user-images.githubusercontent.com/72543241/169781085-18f77d68-4c55-47b6-8b14-e97ef23d200a.png)
+![image](https://user-images.githubusercontent.com/72533416/169970675-563c6840-9e18-4214-8ba4-beeb4b86e4ec.png)
+![image](https://user-images.githubusercontent.com/72533416/169970780-5b70ab06-bb97-4289-ace5-7e486fc56ad2.png)
