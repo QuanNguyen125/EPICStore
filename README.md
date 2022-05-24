@@ -6,8 +6,7 @@
 ![image](https://user-images.githubusercontent.com/72533416/169969447-41429511-29a1-4797-808f-119d07d6f612.png)
 ![image](https://user-images.githubusercontent.com/72533416/169969599-dd5e4978-f621-4f13-8809-82bb84713d8c.png)
 3. Tìm kiếm sản phẩm và phân trang
-![image](https://user-images.githubusercontent.com/72533416/169969779-d468a2b7-01d3-4e48-8863-e8ff13beb899.png)
-
+![image](https://user-images.githubusercontent.com/72533416/169970447-5afa67ee-5891-4478-bc4c-73593ebbe33a.png)
 # Các tính năng ở Admin Panel
 1. Thêm, xóa, sửa
 2. Tìm kiếm đơn hàng theo tên
